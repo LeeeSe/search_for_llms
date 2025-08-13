@@ -1,12 +1,12 @@
 [package]
-name = "simple_search"
+name = "search_for_llms"
 version = "0.1.0"
 edition = "2021"
 description = "A search tool suitable for LLMs, with structured and cleaned search results, written in Rust"
 license = "MIT"
-repository = "https://github.com/LeeeSe/simple_search"
-homepage = "https://github.com/LeeeSe/simple_search"
-documentation = "https://github.com/LeeeSe/simple_search#readme"
+repository = "https://github.com/LeeeSe/search_for_llms"
+homepage = "https://github.com/LeeeSe/search_for_llms"
+documentation = "https://github.com/LeeeSe/search_for_llms#readme"
 keywords = ["search", "web", "scraping", "google", "llm"]
 categories = ["command-line-utilities", "web-programming"]
 authors = ["LeeeSe"]
@@ -21,9 +21,9 @@ futures = "0.3"
 spider_transformations = "2.37.109"
 
 [[bin]]
-name = "simple_search"
+name = "search_for_llms"
 path = "src/main.rs"
 
 [lib]
-name = "simple_search"
+name = "search_for_llms"
 path = "src/lib.rs"

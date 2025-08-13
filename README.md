@@ -1,4 +1,4 @@
-# simple_search
+# search_for_llms
 
 A Rust library and command-line tool for searching web pages and fetching their content, suitable for use with LLMs.
 
@@ -22,13 +22,13 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-simple_search = "0.1.0"
+search_for_llms = "0.1.0"
 ```
 
 Or install the command-line tool:
 
 ```bash
-cargo install simple_search
+cargo install search_for_llms
 ```
 
 ## Usage
@@ -36,7 +36,7 @@ cargo install simple_search
 ### As a Library
 
 ```rust
-use simple_search::{search_and_fetch_structured, search_and_fetch_summary};
+use search_for_llms::{search_and_fetch_structured, search_and_fetch_summary};
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
@@ -55,10 +55,10 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
 ```bash
 # Basic search
-simple_search "Rust programming"
+search_for_llms "Rust programming"
 
 # Search with options
-simple_search "Rust programming" --pages 10 --max-chars 10000
+search_for_llms "Rust programming" --pages 10 --max-chars 10000
 ```
 
 ### Command Line Options
