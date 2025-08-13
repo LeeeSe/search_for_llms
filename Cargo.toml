@@ -2,6 +2,14 @@
 name = "simple_search"
 version = "0.1.0"
 edition = "2021"
+description = "A search tool suitable for LLMs, with structured and cleaned search results, written in Rust"
+license = "MIT"
+repository = "https://github.com/LeeeSe/simple_search"
+homepage = "https://github.com/LeeeSe/simple_search"
+documentation = "https://github.com/LeeeSe/simple_search#readme"
+keywords = ["search", "web", "scraping", "google", "llm"]
+categories = ["command-line-utilities", "web-programming"]
+authors = ["LeeeSe"]
 
 [dependencies]
 clap = { version = "4.5.44", features = ["derive"] }
