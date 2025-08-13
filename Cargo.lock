@@ -2558,6 +2558,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "search_for_llms"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "futures",
+ "serde",
+ "serde_json",
+ "simple_google",
+ "spider",
+ "spider_transformations",
+]
+
+[[package]]
 name = "security-framework"
 version = "2.11.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2803,19 +2816,6 @@ dependencies = [
  "serde",
  "tokio",
  "url",
-]
-
-[[package]]
-name = "simple_search"
-version = "0.1.0"
-dependencies = [
- "clap",
- "futures",
- "serde",
- "serde_json",
- "simple_google",
- "spider",
- "spider_transformations",
 ]
 
 [[package]]

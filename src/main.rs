@@ -1,5 +1,5 @@
 use clap::{Arg, Command};
-use simple_search::search_and_fetch_structured;
+use search_for_llms::search_and_fetch_structured;
 use spider::tokio;
 use std::fs;
 
