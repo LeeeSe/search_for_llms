@@ -4,7 +4,7 @@ A Rust library and command-line tool for searching web pages and fetching their 
 
 ## Overview
 
-`simple_search` is a tool that performs web searches and retrieves content from the resulting pages. It combines search engine querying with web scraping capabilities to gather structured, cleaned information from search results, making it particularly suitable for LLM applications.
+`search_for_llms` is a tool that performs web searches and retrieves content from the resulting pages. It combines search engine querying with web scraping capabilities to gather structured, cleaned information from search results, making it particularly suitable for LLM applications.
 
 ## Features
 
@@ -119,29 +119,6 @@ cargo run -- "your search query"
 ```bash
 cargo test
 ```
-
-### Publishing to crates.io
-
-To publish this crate to crates.io:
-
-1. Create an account at [crates.io](https://crates.io/)
-2. Get your API token from your account settings
-3. Log in locally with `cargo login <your-token>`
-4. Publish with `cargo publish`
-
-Before publishing, ensure:
-- Your crate name is unique on crates.io
-- Your version number is appropriate
-- All metadata in Cargo.toml is correct
-- You've tested the crate thoroughly
-
-## Dependencies
-
-- `clap` - Command line argument parsing
-- `serde` - Serialization framework
-- `simple_google` - Google search functionality
-- `spider` - Web scraping framework
-- `futures` - Asynchronous programming utilities
 
 ## License
 
